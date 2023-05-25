@@ -1,0 +1,152 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+h1 {
+    font-size: 2em;
+font-weight: bold;
+margin-bottom:20px; 
+
+}
+
+
+h2{
+    font-size: 1.2em;
+font-weight: bold;
+margin-bottom:10px; 
+text-align: center;}
+
+
+caption{
+    font-size: 1.2em;
+font-weight: bold;
+margin-bottom:10px;}
+
+
+body {
+    background-image: url("../img/sfondo.png");
+    background-size: 400px;
+    width: 400px;
+    height: 700px;
+    background-repeat:repeat-y;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+
+span{
+    color:purple
+
+}
+
+
+
+
+/* HEADER */
+
+#header {
+    background-color: rgb(0,135,160);
+    width: auto;
+    height: 400px;
+    margin:30px;
+    -webkit-box-shadow: -1px 4px 14px 0px rgba(0,0,0,0.73); 
+box-shadow: -1px 4px 14px 0px rgba(0,0,0,0.73);
+font-family: 'Poppins', sans-serif;
+
+}
+
+#logo {
+    width:250px;
+    max-height: 250px;
+  padding: 30px;
+    
+}
+
+/* MAIN */
+
+main{
+padding: 30px;
+-webkit-box-shadow: -1px 4px 14px 0px rgba(0,0,0,0.73); 
+box-shadow: -1px 4px 14px 0px rgba(0,0,0,0.73);
+width:auto;
+height: auto;
+margin:30px;
+font-family: 'Poppins', sans-serif;
+background-color: white;
+}
+
+#sottotitolo {
+    color: #9097a2
+}
+
+#text{
+    margin-top: 30px;
+}
+
+
+button {
+    border-radius: 5px;
+}
+
+p{
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+
+ol {
+    margin-left: 30px
+}
+
+ul {
+    margin-left: 30px
+}
+
+hr{
+border-top: 3px ; solid ; color:blue
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+table.customTable {
+    width: 280px;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #7EA8F8;
+    border-style: ridge;
+    color: #000000;
+    margin:auto;
+  }
+  
+  table.customTable td, table.customTable th {
+    border-width: 2px;
+    border-color: #7EA8F8;
+    border-style: ridge;
+    padding: 5px;
+  }
+  
+  table.customTable thead {
+    background-color: #7EA8F8;
+  }
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+.aside{
+    background-color: #9097a2;
+    text-align: center;
+    width:280px;
+    margin:auto;
+    margin-top:30px;
+}
+/* FOOTER */
+footer {
+    background-color: rgb(4, 32, 37);
+    color:white;
+    width: auto;
+    height: 100px;
+    margin:30px;
+   text-align: center;
+font-family: 'Poppins', sans-serif;
+}
